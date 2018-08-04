@@ -56,13 +56,13 @@ Use NintendoDS as a WiFi Temperature station
 
 <p align="center"> <a href="https://raw.githubusercontent.com/dbeef/temperature-ds/master/readme/plot_big.png"> Click to see details</a>
 <img src="https://raw.githubusercontent.com/dbeef/temperature-ds/master/readme/plot_big.png" alt="Efficiency"
- width="1650" height="859">
+ width="650" height="400">
 
 <p> I decided to smooth it by linear interpolation, so the same data but transformed look like this: </p>
 
 <p align="center"> <a href="https://raw.githubusercontent.com/dbeef/temperature-ds/master/readme/plot_interpolation.png"> Click to see details</a>
 <img src="https://raw.githubusercontent.com/dbeef/temperature-ds/master/readme/plot_interpolation.png" alt="Efficiency"
- width="1650" height="859">
+ width="650" height="400">
 
 
 <h2 align="center">Acknowledgments:</h2>
