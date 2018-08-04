@@ -56,4 +56,4 @@ Use NintendoDS as a WiFi Temperature station
 
 <p align="center"> <a href="https://raw.githubusercontent.com/dbeef/temperature-ds/master/readme/plot_big.png"> Click to see details</a>
 <img src="https://raw.githubusercontent.com/dbeef/temperature-ds/master/readme/plot_big.png" alt="Efficiency"
- width="1737" height="859">
+ width="1650" height="859">
