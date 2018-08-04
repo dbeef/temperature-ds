@@ -1,0 +1,7 @@
+desktop-client/temp-plot.html
+desktop-client/temperatures.npy
+desktop-client/timestamps.npy
+nintendo-server/build/
+nintendo-server/cmake-build-debug/
+.idea/
+*.swp
