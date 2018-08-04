@@ -57,3 +57,6 @@ Use NintendoDS as a WiFi Temperature station
 <p align="center"> <a href="https://raw.githubusercontent.com/dbeef/temperature-ds/master/readme/plot_big.png"> Click to see details</a>
 <img src="https://raw.githubusercontent.com/dbeef/temperature-ds/master/readme/plot_big.png" alt="Efficiency"
  width="1650" height="859">
+
+<h2 align="center">Acknowledgments:</h2>
+<ul> I used devkitPro libnds examples of interprocessor (ARM7<->ARM9) transmission for probing temperature, also modified their example of connecting to the access point  </ul>
