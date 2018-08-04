@@ -52,7 +52,7 @@ Use NintendoDS as a WiFi Temperature station
 </ul>
 
 <h2 align="center">Performance:</h2>
-<p> As I figured out, NDS temperature sensors just aren't made for this purpose, lol. Temperature oscillates +-1C almost every second, though it still detects temperature changes, so If you smooth the output plot it may be accurate enough. </p>
+<p> As I figured out, NDS temperature sensors just aren't made for this purpose, lol. Temperature oscillates +-1C almost every second, though it still detects temperature changes, so If you smooth the output plot it may be accurate enough. Here's a plot of 5 minutes of measurment every 1 second:</p>
 
 <p align="center"> <a href="https://raw.githubusercontent.com/dbeef/temperature-ds/master/readme/plot_big.png"> Click to see details</a>
 <img src="https://raw.githubusercontent.com/dbeef/temperature-ds/master/readme/plot_big.png" alt="Efficiency"
