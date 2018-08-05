@@ -52,7 +52,13 @@ Use NintendoDS as a WiFi Temperature station
 </ul>
 
 <h2 align="center">Performance:</h2>
-<p> As I figured out, NDS temperature sensors just aren't made for this purpose, lol. Temperature oscillates +-1C almost every second, though it still detects temperature changes, so If you smooth the output plot it may be accurate enough. Here's a plot of 5 minutes of measurment every 1 second:</p>
+<p> As I figured out, NDS temperature sensors just aren't made for this purpose, lol. The 2 temperature sensors I use are under the touchscreen, see: http://www.akkit.org/info/gbatek.htm#dstouchscreencontrollertsc 
+ 
+<i align="center"> The Temperature Range for the TSC 2046 chip is -40'C..+85'C (for AK4181AVT only -20'C..+70'C). According to Nintendo, the DS should not be exposed to "extreme" heat or cold, the optimal battery charging temperature is specified as +10'C..+40'C.
+The original firmware does not support temperature calibration, calibration is supported by nocash firmware (if present). </i>
+ 
+Temperature oscillates +-1C almost every second, though it still detects temperature changes, so If you smooth the output plot it may be accurate enough. 
+Here's a plot of 5 minutes of measurment every 1 second:</p>
 
 
 <p align="center">
