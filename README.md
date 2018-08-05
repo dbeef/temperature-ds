@@ -27,7 +27,7 @@ Use NintendoDS as a WiFi Temperature station
 <ul>
 <li>NDS opens port 8080, python script connects PC to it, then:</li>
   <ul>
-    <li> NDS receives ACK character from NDS</li>  
+    <li> NDS receives ACK character from PC</li>  
     <li> NDS measures temperature,</li>  
     <li> sends its value </li>
     <li> python script appends stats array </li>
