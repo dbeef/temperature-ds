@@ -58,7 +58,7 @@ Use NintendoDS as a WiFi Temperature station
 The original firmware does not support temperature calibration, calibration is supported by nocash firmware (if present). </i>
  
 Temperature oscillates +-1C almost every second, though it still detects temperature changes, so If you smooth the output plot it may be accurate enough. 
-Here's a plot of 5 minutes of measurment every 1 second:</p>
+Here's a plot of 5 minutes of measurment every 1 second (I put the console on a windowsill on a sunny day):</p>
 
 
 <p align="center">
