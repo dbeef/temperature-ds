@@ -27,7 +27,7 @@ Use NintendoDS as a WiFi Temperature station
 <ul>
 <li>NDS opens port 8080, python script connects PC to it, then:</li>
   <ul>
-    <li> NDS receives ACK character from NDS</li>  
+    <li> NDS receives ACK character from PC</li>  
     <li> NDS measures temperature,</li>  
     <li> sends its value </li>
     <li> python script appends stats array </li>
@@ -52,11 +52,22 @@ Use NintendoDS as a WiFi Temperature station
 </ul>
 
 <h2 align="center">Performance:</h2>
-<p> As I figured out, NDS temperature sensors just aren't made for this purpose, lol. Temperature oscillates +-1C almost every second, though it still detects temperature changes, so If you smooth the output plot it may be accurate enough. </p>
+<p> As I figured out, NDS temperature sensors just aren't made for this purpose, lol. The 2 temperature sensors I use are under the touchscreen, see: http://www.akkit.org/info/gbatek.htm#dstouchscreencontrollertsc 
+ 
+<i align="center"> The Temperature Range for the TSC 2046 chip is -40'C..+85'C (for AK4181AVT only -20'C..+70'C). According to Nintendo, the DS should not be exposed to "extreme" heat or cold, the optimal battery charging temperature is specified as +10'C..+40'C.
+The original firmware does not support temperature calibration, calibration is supported by nocash firmware (if present). </i>
+ 
+Temperature oscillates +-1C almost every second, though it still detects temperature changes, so If you smooth the output plot it may be accurate enough. 
+Here's a plot of 5 minutes of measurment every 1 second (I put the console on a windowsill on a sunny day):</p>
 
-<p align="center"> <a href="https://raw.githubusercontent.com/dbeef/temperature-ds/master/readme/plot_big.png"> Click to see details</a>
+
+<p align="center">
 <img src="https://raw.githubusercontent.com/dbeef/temperature-ds/master/readme/plot_big.png" alt="Efficiency"
- width="1650" height="859">
+ width="650" height="400">
+
+<p align="center"> I decided to smooth it by linear interpolation, so the same data but transformed look like this:
+<img src="https://raw.githubusercontent.com/dbeef/temperature-ds/master/readme/plot_interpolation.png" alt="Efficiency"
+ width="650" height="400">
 
 <h2 align="center">Acknowledgments:</h2>
 <ul> I used devkitPro libnds examples of interprocessor (ARM7<->ARM9) transmission for probing temperature, also modified their example of connecting to the access point  </ul>
