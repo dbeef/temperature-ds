@@ -1,6 +1,8 @@
 desktop-client/temp-plot.html
 desktop-client/temperatures.npy
 desktop-client/timestamps.npy
+nintendo-server/source/arm7/build/
+nintendo-server/source/arm9/build/
 nintendo-server/build/
 nintendo-server/cmake-build-debug/
 .idea/
